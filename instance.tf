@@ -12,9 +12,9 @@ variable description { default =  "instance from terraform" }
 variable zone { default =  "" }
 variable folder_id { default =  "" }
 
-variable cores { default = "2"}
-variable memory { default = "4"}
-variable core_fraction { default = "20"}
+variable cores { default = "4"}
+variable memory { default = "8"}
+variable core_fraction { default = "100"}
 
 variable boot_disk { default =  "network-hdd" }
 variable disk_size { default =  "20" }
