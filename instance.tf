@@ -49,6 +49,7 @@ resource "yandex_compute_instance" "netology-vm" {
   description = var.description
   zone = var.zone
   folder_id = var.folder_id
+  allow_stopping_for_update = true
 
   resources {
     cores  = var.cores
