@@ -69,6 +69,6 @@ resource "yandex_compute_instance" "netology-vm" {
   }
 
   metadata = {
-    ssh-keys = "${var.users}:${file("~/.ssh/id_rsa.pub")}"
+    ssh-keys = "${var.users}:${file("./example-terraform-teamwork.pub")}"
   }
 }
